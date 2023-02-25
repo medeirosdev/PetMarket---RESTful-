@@ -27,11 +27,8 @@ const Pet = mongoose.model(
         available: {
             type: Boolean,
         },
-
         user : Object,
         adopter: Object
-
-        
         },
         {timestamps : true}, // Para atualizações de data/horário dos dados
     )
